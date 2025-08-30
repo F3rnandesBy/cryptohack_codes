@@ -12,7 +12,7 @@ def hex_to_bytes(flag_hexadecimal):
         bytes_data = bytes.fromhex(flag_hexadecimal)
         return bytes_data
     except ValueError as e:
-        raise ValueError(f"String decimal inválida: {e}") 
+        raise ValueError(f"String hexadecimal inválida: {e}") 
 
 
 def bytes_encode_base64():
